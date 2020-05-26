@@ -1,0 +1,5 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+  com.elephant.basic.storage.mongo.config.MongodbConfig,\
+  com.elephant.basic.storage.mongo.config.CustomMongoAutoConfiguration,\
+  com.elephant.basic.storage.redis.RedisConfig,\
+  com.elephant.basic.storage.mongo.config.GridFsAutoConfiguration
